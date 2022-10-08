@@ -1,3 +1,7 @@
+// Create class Employee with attributes name,age,designation and use instances of these class as keys in 
+//a Map and their salary as value
+
+
 package assignment3;
 
 import java.util.LinkedHashMap;
@@ -18,13 +22,10 @@ public class Q3 {
 
 		return "(age is->" + age + "," + "name is->" + name + "," + "desination is->" + designation + ")";
 	}
-
-	// public class FourthProgram {
-
 	public static void main(String args[]) {
 		Q3 e1 = new Q3(20, "Mohit", "trainee");
 		Q3 e2 = new Q3(28, "Jai", "manager");
-		Q3 e3 = new Q3(27, "Chotu", "director");
+		Q3 e3 = new Q3(27, "Chhotu", "director");
 		Q3 e4 = new Q3(38, "Raj", "CEO");
 
 		Map<Q3, Integer> map = new LinkedHashMap<>();

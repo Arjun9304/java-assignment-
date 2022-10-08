@@ -1,3 +1,5 @@
+//Q5)Implement multiple inheritance with default method inside interface.
+
 package assignment4;
 
 interface Clickable {

@@ -1,3 +1,7 @@
+// Write a program to read user input until user writes XDONE and then
+//show the entered text by the user on commandline
+
+
 package assignment1;
 
 import java.util.ArrayList;

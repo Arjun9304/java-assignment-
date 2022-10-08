@@ -1,3 +1,5 @@
+//Create a thread using lambda function
+
 package assignment4;
 
 public class Q3 {
